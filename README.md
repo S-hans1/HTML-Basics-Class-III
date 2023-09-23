@@ -1,2 +1,2 @@
-# HTML Basics Class III
+# Table
  table practice tags
