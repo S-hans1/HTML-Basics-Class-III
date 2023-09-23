@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table,
+        tr,
+        td, th {
+
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            caption-side: bottom;
+
+        }
+        thead >tr > th {
+            background-color: brown;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <table>
+
+        <caption>my colorful table</caption>
+
+        <colgroup>
+            <col span="1" style="background-color: aqua;">
+            <col span="1" style="background-color: green;">
+            <col span="1">
+            <col span="1" style="background-color: yellow;">
+            <col span="1" style="visibility: collapse;">
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th rowspan="2">state of health</th>
+                <th colspan="2">fasting value</th>
+                <th>after eating</th>
+                <th>abcd</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>min</td>
+                <td>max</td>
+                <td>2 hours after eating</td>
+                <td>abcd</td>
+
+            </tr>
+            <tr>
+                <td>healthy</td>
+                <td>70</td>
+                <td>100</td>
+                <td>less than 140</td>
+                <td>abcd</td>
+
+            </tr>
+            <tr>
+                <td>pre diabetics</td>
+                <td>101</td>
+                <td>126</td>
+                <td>140 to 200</td>
+                <td>abcd</td>
+
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+
+            <tr style="background-color: beige;" >
+                <td>diabetes</td>
+                <td>more than 126</td>
+                <td>na</td>
+                <td>more than 200</td>
+                <td>abcd</td>
+
+
+            </tr>
+        </tfoot>
+
+
+    </table>
+
+
+</body>
+
+</html>
